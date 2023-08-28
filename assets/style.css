@@ -38,6 +38,8 @@ body{
     align-self: flex-start;
     margin-top: 30px;
     margin-left: 25px;
+    position: relative;
+    top: -5px;
 }
 
 
@@ -172,7 +174,7 @@ p{
 .down{
     height: 120px;
     width: 100%;
-    background-color: blueviolet;
+    background-color: white;
 }
 
 .f{
@@ -255,6 +257,7 @@ body > div.bottom > div.content-left > div > h2.f.ft > b{
 }
 body > div.bottom > div.content-left > div > h2.f.fs > b{
     font-family: myfont1;
+
 }
 
 .select{
@@ -314,7 +317,9 @@ body > div.bottom > div.content-left > div > h2.f.fs > b{
     top: 1.5px;
     border-radius: 10px;
 }
-
+.f3f,.f3s,.f3t{
+    height: 60px;
+}
 .text3{
     position: relative;
     left: 60px;
@@ -342,4 +347,118 @@ body > div.bottom > div.content-left > div > h2.f.fs > b{
     position: relative;
     top: -25px;
     left: 3px;
+}
+
+.am7{
+    position: relative;
+    padding: 10px;
+    width: 150px;
+    height: 40%;
+    background-color: black;
+    color: white;
+    top: 5px;
+    left: 40px;
+    border-radius: 100px;
+
+
+}
+.am72{
+
+
+    padding: 10px 15px;
+    background-color: white;
+    color:  black;
+    position: relative;
+    top: 15px;
+    border-radius: 50px;
+}
+.am71{
+    position: relative;
+    top: 15px;
+}
+
+.down{
+    display: flex;
+}
+
+.leaf{
+    width: 60px;
+    background-color: #c6ff9d;
+    height: 60px;
+    position: relative;
+    top: 30px;
+    left: 40px;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+.dt{
+    position: relative;
+    left: 100px;
+    line-height: 0.7;
+    font-family: myfont1;
+    font-size: 15px;
+    top: 20px;
+}
+
+.dw{
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    left: 200px;
+    display: flex;
+    top: 20px;
+
+}
+.dw1{
+    position: relative;
+    background-color: #e4ff9e;
+    padding: 10px 30px;
+    height: 20px;
+    border-radius: 50px;
+    border: 1px solid black;
+
+
+}
+
+.dw2{
+    position: relative;
+    background-color: #e4e3f7;
+    padding: 10px 40px;
+    height: 20px;
+    border-radius: 50px;
+    border: 1px solid black;
+    right: 32px;
+
+}
+.dw3{
+    background-color: #ffeabd;
+
+    padding: 10px 40px;
+    height: 20px;
+    border-radius: 50px;
+    border: 1px solid black;
+    margin-left: -65px;
+}
+
+.cont{
+    position: relative;
+    left: 250px;
+    top: 40px;
+    padding: 10px 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 50px;
+    align-items: center;
+}
+.con1{
+    position: relative;
+    bottom: 15px;
+    font-size: 15px;
+}
+.inf{
+    width: 40px;
+    position: relative;
+    top: 5px;
+    left: 20px;
+    
 }
